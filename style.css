@@ -41,3 +41,61 @@ body{
     left: 50%;
     transform: translateX(-50%);
 }
+
+.container blockquote{
+    font-size: 26px;
+    min-height: 110px;
+}
+
+.container blockquote::before ,.container blockquote::after{
+    content: '"';
+}
+
+.container span{
+    display: block;
+    margin-top: 10px;
+    float: right;
+    position: relative;
+}
+
+.container span::before{
+    content: '';
+    width: 20px;
+    height: 2px;
+    background: rgb(23,124,229);
+    position: absolute;
+    top: 50%;
+    left: -30px;
+}
+
+.container div{
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.container button{
+    background: rgb(23,124,229);
+    font-size: 20px;
+    color: #fff;
+    border-radius: 25px;
+    border: 1px solid rgba(23,124,229);
+    width: 150px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.container button img{
+    width: 20px;
+    margin-right: 10px;
+}
+
+.container button:nth-child(2){
+    background: transparent;
+    color: #333;
+}
