@@ -4,7 +4,7 @@ A simple web application that displays a new inspirational quote each day. Users
 
 ## Links
 
-[`Website`](https://quote-generator-one-lime.vercel.app/)
+[`Quote Website`](https://quote-generator-one-lime.vercel.app/)
 
 ## Features
 
